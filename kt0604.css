@@ -1,0 +1,22 @@
+.abc{
+    margin-bottom: 20px;
+}
+#btnShow{
+    margin-bottom: 10px;
+    background-color: #0a58ca;
+    color: white;
+    border-radius:5px ;
+    height: 30px;
+    border: 0;
+}
+#textName{
+    width:100%;
+    height: 20px;
+    margin-top: 5px;
+}
+#btnShow:active{
+    opacity: 0.7;
+}
+.container{
+    width: 60%;
+}
