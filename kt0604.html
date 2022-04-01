@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="kt0604.css">
-    <script src="kt0604.js"></script>
+    <!-- <script src="kt0604.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./kt0604.js"></script>
+    <script src="./kt0604_JQ.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -23,12 +26,16 @@
             </div>
         </div>
         <div class="abc">
-            <input type="checkbox" name="cb_MonHoc"> Tiếng Anh
-            <input type="checkbox" name="cb_MonHoc"> Tiếng Trung
+            <input type="checkbox" name="cb_MonHoc" id="TA"> Tiếng Anh
+            <input type="checkbox" name="cb_MonHoc" id="TT"> Tiếng Trung
             <hr>
         </div>
-        <input type="button" value="Xem thông tin" id="btnShow" onclick="show_Data()">
+        <input type="button" value="Xem thông tin" id="btnShow" onclick="show_Data_Js()" >
         <hr>
+        <div>
+            <input type="radio" name="rd_Select_Option"> Javascript
+            <input type="radio" name="rd_Select_Option"> JQuery
+        </div>
     </div>
 </body>
 </html>
